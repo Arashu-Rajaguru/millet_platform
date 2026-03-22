@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { api, API_URL } from '../services/api';
+import { api } from '../services/api';
 import { Plus, Tag, ShieldCheck, Box, Filter, Edit2, Save, X, Bell } from 'lucide-react';
 
 export default function FarmerDashboard() {
